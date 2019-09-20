@@ -33,12 +33,12 @@ class Migration(migrations.Migration):
                 ('username', models.CharField(max_length=32)),
                 ('age', models.IntegerField()),
                 ('gender', models.BooleanField()),
-                ('cs', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='app01.Classes')),
+                ('cs', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='app02.Classes')),
             ],
         ),
         migrations.AddField(
             model_name='classes',
             name='m',
-            field=models.ManyToManyField(to='app01.Teacher'),
+            field=models.ManyToManyField(to='app02.Teacher'),
         ),
     ]
