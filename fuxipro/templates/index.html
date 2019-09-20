@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+{% block time %}
+<h1 id="马达">时间显示</h1>
+{% endblock %}
+{% for name in li %}
+    <div>这次输出的名字是{{ name }}</div>
+{% endfor %}
+
+<div>现在的时间是:</div><div class="时间">{{ t }}</div>
+
+<form action="/login">
+    <div> 姓名  <input type="text" name="姓名"></div>
+    <div> 职业  <input type="text" name="职业"></div>
+    <div> 爱好  <input type="checkbox" name="姓名">篮球
+                <input type="checkbox" name="姓名">足球
+                 <input type="checkbox" name="姓名">乒乓球
+    </div>
+    <input type="submit" value="提交">
+</form>
+<script src="{% static 'jquery-3.4.1.js'%}"></script>
+<script>
+    $(".时间").css("color","red")
+    $("#马达").css("color","green")
+</script>
+</body>
+</html>

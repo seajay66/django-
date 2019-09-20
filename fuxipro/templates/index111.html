@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .head{
+            line-height: 40px;
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+        .mingzi{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="head">标题</div>
+    <div class="content">
+        <a href="/add">添加数据</a>
+        <a href="/update">修改数据</a>
+        <a href="/delete">删除数据</a>
+        <a href="/select">查询数据</a>
+    </div>
+    <div class="queryresult">
+    <h1>{{ book_list }}</h1>
+        {% for book in book_list %}
+            <div>
+                <p class="mingzi">{{ book.author }} {{ book.name }} {{ book.price }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
