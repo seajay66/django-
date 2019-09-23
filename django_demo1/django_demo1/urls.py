@@ -19,4 +19,7 @@ from app02.views import classes
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('classes.html/', classes.get_classes),
+    path('add_classes.html/', classes.add_classes),
+    path('del_classes.html/', classes.del_classes),
+    path('edit_classes.html/', classes.edit_classes),
 ]

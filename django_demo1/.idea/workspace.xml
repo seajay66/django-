@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc15c0b5-a478-4a83-8690-a85760b07b13" name="Default Changelist" comment="">
+    <list default="true" id="bc15c0b5-a478-4a83-8690-a85760b07b13" name="Default Changelist" comment="12:59:34">
+      <change afterPath="$PROJECT_DIR$/templates/add_classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44e89487-7fe8-4353-bea1-6a7f4961d2f5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app02/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app02/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app02/views/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/views/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_demo1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_demo1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_demo1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/get_classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/get_classes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,15 +62,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1R2ttTyo4E6ojNUqWIDULLAlmTp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app01" />
     </key>
@@ -106,12 +121,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@be63c744" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -128,8 +138,38 @@
       <option name="presentableId" value="Default" />
       <updated>1568877232444</updated>
       <workItem from="1568877236273" duration="4975000" />
-      <workItem from="1568954682121" duration="557000" />
+      <workItem from="1568954682121" duration="2328000" />
+      <workItem from="1569224534401" duration="8444000" />
     </task>
+    <task id="LOCAL-00001" summary="尝试更新">
+      <created>1568955253038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568955253038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="再次尝试">
+      <created>1568955453242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568955453242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12:59:34">
+      <created>1568955580312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568955580312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="13:02:22">
+      <created>1568955747815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568955747815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,10 +180,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="尝试更新" />
+    <MESSAGE value="再次尝试" />
+    <MESSAGE value="12:59:34" />
+    <MESSAGE value="13:02:22" />
+    <option name="LAST_COMMIT_MESSAGE" value="13:02:22" />
   </component>
 </project>
