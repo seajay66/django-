@@ -16,10 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app02.views import classes
+from app02.views import students
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('classes.html/', classes.get_classes),
     path('add_classes.html/', classes.add_classes),
     path('del_classes.html/', classes.del_classes),
     path('edit_classes.html/', classes.edit_classes),
+
+    path('students.html/', students.get_students),
+    path('add_students.html/', students.add_students),
+    path('del_students.html/', students.del_students),
 ]

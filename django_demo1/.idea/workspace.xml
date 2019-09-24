@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc15c0b5-a478-4a83-8690-a85760b07b13" name="Default Changelist" comment="12:59:34">
-      <change afterPath="$PROJECT_DIR$/templates/add_classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit_classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44e89487-7fe8-4353-bea1-6a7f4961d2f5.xml" beforeDir="false" />
+    <list default="true" id="bc15c0b5-a478-4a83-8690-a85760b07b13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/add_students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/get_students.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app02/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app02/views/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app02/views/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/views/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_demo1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_demo1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app02/views/students.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/views/students.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_demo1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit_classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/get_classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/get_classes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +70,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -121,7 +118,17 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62f2cca4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62f2cca4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4cf34bad" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -139,7 +146,8 @@
       <updated>1568877232444</updated>
       <workItem from="1568877236273" duration="4975000" />
       <workItem from="1568954682121" duration="2328000" />
-      <workItem from="1569224534401" duration="8444000" />
+      <workItem from="1569224534401" duration="9211000" />
+      <workItem from="1569281431640" duration="9776000" />
     </task>
     <task id="LOCAL-00001" summary="尝试更新">
       <created>1568955253038</created>
@@ -169,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568955747815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[2019-09-23]学习HTML表单与数据库交互的增删改功能">
+      <created>1569241742295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569241742295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[2019-09-23]临时学生写完一部分；">
+      <created>1569242487336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569242487336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +215,8 @@
     <MESSAGE value="再次尝试" />
     <MESSAGE value="12:59:34" />
     <MESSAGE value="13:02:22" />
-    <option name="LAST_COMMIT_MESSAGE" value="13:02:22" />
+    <MESSAGE value="[2019-09-23]学习HTML表单与数据库交互的增删改功能" />
+    <MESSAGE value="[2019-09-23]临时学生写完一部分；" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2019-09-23]临时学生写完一部分；" />
   </component>
 </project>

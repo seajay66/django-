@@ -22,6 +22,5 @@ class Teacher(models.Model):
 class Student(models.Model):
     username = models.CharField(max_length=32)
     age = models.IntegerField()
-    addr = models.CharField(max_length=32)
     gender = models.BooleanField()
     cs = models.ForeignKey("Classes",on_delete=models.CASCADE,)
