@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息修改</title>
+</head>
+<body>
+<form action="/edit_students.html/?nid={{ obj.id }}" method="post">
+    <input type="text" name="username" value="u222" placeholder="{{obj.username}}">
+    <input type="text" name="age" value="a" placeholder="{{ obj.age }}">
+    <input type="text" name="gender" value="g" placeholder="{{ obj.gender }}">
+    <input type="text" name="cs" value="c" placeholder="{{ obj.cs.name }}">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

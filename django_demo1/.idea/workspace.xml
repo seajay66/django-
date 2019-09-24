@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc15c0b5-a478-4a83-8690-a85760b07b13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/add_students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/get_students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_students.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app02/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app02/views/students.py" beforeDir="false" afterPath="$PROJECT_DIR$/app02/views/students.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_demo1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_demo1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/edit_classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/get_classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/get_classes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +44,9 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -63,6 +63,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -147,7 +148,7 @@
       <workItem from="1568877236273" duration="4975000" />
       <workItem from="1568954682121" duration="2328000" />
       <workItem from="1569224534401" duration="9211000" />
-      <workItem from="1569281431640" duration="9776000" />
+      <workItem from="1569281431640" duration="14437000" />
     </task>
     <task id="LOCAL-00001" summary="尝试更新">
       <created>1568955253038</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569242487336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[2019-09-24]学生信息导入的添加和删除">
+      <created>1569295489687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569295489687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
     <MESSAGE value="13:02:22" />
     <MESSAGE value="[2019-09-23]学习HTML表单与数据库交互的增删改功能" />
     <MESSAGE value="[2019-09-23]临时学生写完一部分；" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2019-09-23]临时学生写完一部分；" />
+    <MESSAGE value="[2019-09-24]学生信息导入的添加和删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2019-09-24]学生信息导入的添加和删除" />
   </component>
 </project>
