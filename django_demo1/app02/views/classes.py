@@ -7,6 +7,11 @@ def get_classes(request):
     return render(request,"get_classes.html",locals())
 
 def add_classes(request):
+    """
+    建立班级
+    :param request:
+    :return:
+    """
     if request.method == "GET":
         return render(request, "add_classes.html", locals())
     elif request.method == "POST":
